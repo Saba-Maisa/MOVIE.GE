@@ -650,7 +650,6 @@ background-color: rgb(230, 44, 44);
         display: none;
     }
     .modal-info-container{
-        background-color: rebeccapurple;
         width: 750px;
     }
 }
@@ -658,10 +657,8 @@ background-color: rgb(230, 44, 44);
     .movieVideoRemove{
         width: 500px;
       max-height:100%;
-        background-color: rebeccapurple;
     }
      .modal-info-container{
-        background-color: rebeccapurple;
         width: 500px;
     }
 }
@@ -669,10 +666,8 @@ background-color: rgb(230, 44, 44);
     .movieVideoRemove{
         width: 400px;
         max-height: 80%;
-        background-color: rebeccapurple;
     }
     .modal-info-container{
-        background-color: rgb(5, 5, 5);
         max-width: 90%;
         margin: 0 auto;
         padding: 20px;
@@ -830,11 +825,14 @@ background-color: rgb(230, 44, 44);
         width: 100%;
   
     }
+    .icon_user_comment p{
+        margin:0 20px 0 0;
+    }
     .comment-info{
         width: 100%;
     }
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:750px) {
     .first-container-comment{
         margin-top: 1000px;
     }
@@ -849,6 +847,7 @@ background-color: rgb(230, 44, 44);
         font-size: 25px;
         padding: 10px 15px;
         margin: 30px 0 0 30px;
+
  
     }
     .comment-quantity{
