@@ -825,7 +825,7 @@ background-color: rgb(230, 44, 44);
         display: flex;
         justify-content: center;
         width: 100%;
-  
+  background-color: rebeccapurple;
     }
     .icon_user_comment p {
      display: flex;
