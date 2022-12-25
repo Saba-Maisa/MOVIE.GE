@@ -680,8 +680,11 @@ background-color: rgb(230, 44, 44);
 .first-container-comment{
     position: relative;
     width: 100%;
-    margin-top: 950px;
+    margin-top: 1000px;
     margin-bottom: 100px;
+}
+.formContainer{
+    margin: 0 auto;
 }
 
  .second-container-comment{
@@ -711,7 +714,6 @@ background-color: rgb(230, 44, 44);
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
 .icon_user_comment p{
     font-size:40px;
@@ -825,8 +827,11 @@ background-color: rgb(230, 44, 44);
         width: 100%;
   
     }
-    .icon_user_comment p{
-        margin:0 20px 0 0;
+    .icon_user_comment p {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     /* margin-right: 20px; */
     }
     .comment-info{
         width: 100%;
@@ -846,7 +851,7 @@ background-color: rgb(230, 44, 44);
     .icon_user_comment p{
         font-size: 25px;
         padding: 10px 15px;
-        margin: 30px 0 0 30px;
+          margin-top: 15px;
 
  
     }
