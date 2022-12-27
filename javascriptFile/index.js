@@ -1,5 +1,4 @@
 
-
 ///// slider//////////////
 const modal = document.querySelector('.modal')
 
@@ -90,6 +89,7 @@ let   pDate = document.createElement('p')
       sliderInfoContainer.appendChild(sliderInfo )
    
 }
+
 
 function sliderRight(index){
 
@@ -346,8 +346,8 @@ const burger = document.getElementById("burger");
 const navMenu = document.getElementById("ulList");
   
       burger.addEventListener('click', () => {
-        burger.classList.toggle("active");
-        navMenu.classList.toggle("active");
+      burger.classList.toggle("active");
+      navMenu.classList.toggle("active");
   })
                                                                                   // scrolly
 
@@ -411,10 +411,10 @@ const quaniitComment =  document.querySelector('.quaniit')
 
 submitComment.addEventListener('click', infoComment)
 
-    newTextArr = []
+
 let positiveFedback = false
 let likesCount = 0
-
+let arr =  newTextArr = []
 function infoComment(e){
   const userForm = userInput.value
   const commentForm = commentInput.value
@@ -430,8 +430,8 @@ if(userForm && commentForm !== ""){
 if(positiveFedback === false){
     quaniit() 
 }
-  newTextArr.push(newText)
-  console.log(newTextArr)
+arr.push(newText)
+  console.log(arr)
   restForm()
   addInfoComent(newText)
 
@@ -442,7 +442,7 @@ if(positiveFedback === false){
 function restForm (){
   userInput.value = ""
   commentInput.value = ""
-  positiveFedback = false
+  positiveFedback = true
 }
 const commentInfo = document.querySelector('.comment-info')
 
@@ -454,7 +454,7 @@ const commentUsers = (item.userName).charAt(0)
     let year = todey.getFullYear();
     let date = todey.getDate()
     let hours = addZero(todey.getHours()) ;
-    let monuts = addZero(todey.getHours());
+    let monuts = addZero(todey.getMinutes());
     let seconds = addZero(todey.getSeconds())
 
  const comments = document.createElement('div')
@@ -478,7 +478,7 @@ quaniitComment.innerHTML = likesCount
 }
 
 function addZero(num){
-  return num < 10 ? `0${num}`:num
+  return num < 10 ?  `0${num}`:num
 }
 
 

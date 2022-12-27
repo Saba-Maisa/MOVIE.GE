@@ -848,10 +848,7 @@ background-color: rgb(230, 44, 44);
         height: 35px;
     }
     .icon_user_comment p{
-        font-size: 25px;
-        padding: 10px 15px;
-          margin-top: 15px;
-
+       display: none;
  
     }
     .comment-quantity{
