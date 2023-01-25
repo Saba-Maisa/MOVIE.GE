@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styeFile/style.css">
-  <script src="./node_modules/axios/dist/axios.min.js" ></script> 
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet"  href="/styleFile/style.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
- <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script> 
- <script src="./javascriptFile/index.js" defer></script>
- <script src="./javascriptFile/app.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js" defer></script> 
+<script src="/jsFile/index.js" defer type="module"></script>
+<script src="/jsFile/scroll.js" defer></script>
+<script src="/jsFile/burgerMenu.js" defer></script>
+<script src="/jsFile/vdeoApi.js" defer></script>
+<script src="./jsFile/comment.js" defer></script>
     <title>movie.ge</title>
 </head>
 <body>
@@ -31,7 +33,7 @@
     <div class="icon_user_comment">
         <p><i class="fa-regular fa-user"></i></p>
     </div>
-    <form class="formContainer">
+    <div class="formContainer">
 
         
         <div class="form-infut-comment">
@@ -48,8 +50,7 @@
             <input type="text" name="comment" id="comment-input" placeholder="კომენტარი">
         </div>
         <button type="submit" class="submit-comment">დამატება</button>
-    </form>
-
+    </div>
 </div>
 <div class="comment-info"> </div>
 
