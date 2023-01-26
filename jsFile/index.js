@@ -283,10 +283,11 @@ function modalBox(element) {
 const api = "78828dca7949b70ca50313e4d49660d1";
 const videoYoutube = document.querySelector(".video-youtube");
 
+
+
 function movieApi(movie) {
   axios
-    .get(
-      `https://api.themoviedb.org/3/movie/${movie}/videos?api_key=${api}&language=en-US`
+    .get(`https://api.themoviedb.org/3/movie/${movie}/videos?api_key=${api}&language=en-US`
     )
     .then(function (response) {
       let responseMoves = response.data.results[0];
