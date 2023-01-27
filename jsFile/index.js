@@ -1,4 +1,4 @@
-import { movieApi} from "./vdeoApi.js"
+import { movieApi } from "./vdeoApi.js";
 ///// slider//////////////
 const modal = document.querySelector(".modal");
 
@@ -277,6 +277,5 @@ function modalBox(element) {
 
   modalContainerInfo.appendChild(modalInfo);
 
-   movieApi(element.id);
+  movieApi(element.id);
 }
-
