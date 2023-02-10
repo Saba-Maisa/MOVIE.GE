@@ -1,4 +1,4 @@
-import { movieApi } from "./vdeoApi.js";
+import { movieApi } from "./videoApi.js";
 ///// slider//////////////
 const modal = document.querySelector(".modal");
 
